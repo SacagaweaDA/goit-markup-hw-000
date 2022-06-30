@@ -1,0 +1,19 @@
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $cardGap;
+}
+
+.card-set-item {
+  // flex-basis: calc((100% - #{$cardItem - 1} * 30px) /#{$cardItem});
+}
+// .card-set-item {
+//   @include mq(tab) {
+//     flex-basis: calc(((100% - (($cardItem) - 1) * $cardGap)) / $cardItem);
+//   }
+
+// @include mq(desc) {
+//   flex-basis: calc(((100% - (($cardItem) - 1) * $cardGap)) / $cardItem);
+//   flex-wrap: nowrap;
+// }
+// }
